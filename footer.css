@@ -1,0 +1,28 @@
+@font-face{
+  src:url(typos/Raleway-Regular.ttf);
+  font-family: raleway;
+  font-weight: normal;
+}
+
+a{
+	text-decoration: none;
+}
+
+footer{
+	font-family: raleway;
+  	text-align: center;
+  	padding: 2% 0;
+}
+
+.monogramme-footer{
+  width: 4%;
+
+}
+
+@media (max-width: 480px){
+
+.monogramme-footer{ 
+	width: 5%;
+	height: auto;
+ }
+}

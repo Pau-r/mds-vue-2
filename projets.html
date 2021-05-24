@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio</title>
+	<link rel="stylesheet" href="projets.css">
+	<link rel="stylesheet" href="header.css">
+	<link rel="stylesheet" href="footer.css">
+</head>
+<body>
+	<div class="one">
+		<main>
+			<header>			
+			<nav>
+
+				<div class="menu"> 
+				<a href="index.html"> Accueil</a>
+				<a href="projets.html">Portfolio</a>
+				<a href="index.html"><img class="monogramme" src="images/logo-pr.png" alt="monogramme PR"></a>
+				<a href="apropos.html">À propos</a>
+				<a href="contact.html">Contact</a>
+				</div>
+
+					<div class="b-nav">
+			  <li><a class="b-link" href="index.html" target="_blank">Accueil</a></li>
+			  <li><a class="b-link" href="webdesign.html" target="_blank">Portfolio</a></li>
+			  <li><a class="b-link" href="apropos.html" target="_blank">A propos</a></li>
+			  <li><a class="b-link" href="contact.html" target="_blank">Contact</a></li>
+					</div>
+
+			<!-- Burger-Icon -->
+			<div class="b-container">
+				<!-- Burger-Brand 
+			  <a href="#" class="b-brand">Menu</a>-->
+				
+			  <div class="b-menu">
+			    <div class="b-bun b-bun--top"></div>
+			    <div class="b-bun b-bun--mid"></div>
+			    <div class="b-bun b-bun--bottom"></div>
+			  </div>
+	 	
+			</div>
+				</nav>				
+
+				<h1>Portfolio</h1>
+
+			</header>
+
+			<section class="menu-filtre">
+				<button id="all-projects" class="filtre-projets active">Tous les projets</button>
+				<button id="webdesign" class="filtre-projets">Webdesign</button>
+				<button id="graphisme" class="filtre-projets">Graphisme</button>
+				<button id="photographie" class="filtre-projets">Photographie</button>
+				<button id="videos" class="filtre-projets">Vidéos</button>
+				<button id="alternance" class="filtre-projets">Alternance</button>
+			</section>
+
+
+			<section class="container">
+
+				<div class="flip-card grid-item photographie show">
+					<div class="flip-card-inner">
+						<a class="flip-card-front canard" href="canard.html"></a>
+						<a class="flip-card-back" href="canard.html">Coin de détente</a>
+					</div>
+				</div>
+
+				<div class="flip-card grid-item webdesign show">
+					<div class="flip-card-inner">
+						<a class="flip-card-front cantabria" href="cantabria.html"></a>
+						<a class="flip-card-back" href="cantabria.html">Cantabria</a>
+					</div>
+				</div>
+
+				<div class="flip-card grid-item webdesign show">
+					<div class="flip-card-inner">
+						<a class="flip-card-front appli" href="application.html"></a>
+						<a class="flip-card-back" href="application.html">Unique</a>
+					</div>
+				</div>
+
+				<div class="flip-card grid-item graphisme show">
+					<div class="flip-card-inner">
+						<a class="flip-card-front recette" href="recette.html"></a>
+						<a class="flip-card-back" href="recette.html">Recette</a>
+					</div>
+				</div>
+
+				<div class="flip-card grid-item webdesign show">
+					<div class="flip-card-inner">
+						<a class="flip-card-front visuel" href="visuels.html"></a>
+						<a class="flip-card-back" href="visuels.html">Communication</a>
+					</div>
+				</div>
+
+				<div class="flip-card grid-item show webdesign">
+					<div class="flip-card-inner">
+						<a class="flip-card-front ets" href="ets-raulet.html"></a>
+						<a class="flip-card-back" href="ets-raulet.html">Ets Raulet</a>
+					</div>
+				</div>
+
+				<div class="flip-card grid-item show">
+					<div class="flip-card-inner">
+						<a class="flip-card-front depliant" href="depliant.html"></a>
+						<a class="flip-card-back" href="depliant.html">Dépliant</a>
+					</div>
+				</div>
+
+				<div class="flip-card grid-item show">
+					<div class="flip-card-inner">
+						<a class="flip-card-front portrait" href="portrait.html"></a>
+						<a class="flip-card-back" href="portrait.html">Dans la famille...</a>
+					</div>
+				</div>
+			</section>
+
+	<footer>
+		<a href="index.html"><img class="monogramme-footer" src="images/logo-pr.png" alt="monogramme PR"></a>
+		<p>Photographe & Webdesigner</p>
+		<p>Tous droits réservés - <a href="apropos.html">Pauline Raulet©</a> 2021</p>
+	</footer>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.5/vue.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script src="index.js"></script>
+	<script src="projets.js"> </script>
+
+</main>
+</div>
+
+</body>
+</html>

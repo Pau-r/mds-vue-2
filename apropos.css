@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+@font-face{
+  src:url(typos/Raleway-Bold.ttf);
+  font-family:raleway;
+  font-weight: bold;
+}
+
+main{
+	font-family: raleway;
+}
+
+h1{
+	text-align: center;
+	font-size: 7vw;
+	padding: 5%;
+	color: #11454f;
+}
+
+section{
+	display: flex;
+	align-items: center;
+}
+
+article{
+	padding: 5%;
+}
+
+.photo{
+	width: 50vw;
+	padding: 5% 2% 5% 5%;
+}
+
+.apropos{
+	padding: 2%;
+	line-height: 1.75;
+
+}
+
+.couleur{
+	color: #eb8e98;
+}
+
+@media (max-width: 740px) {
+ 
+	h1{
+		font-size: 9vw;
+		padding-top: 8%;
+	}
+
+ 	section{
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	justify-content: center;
+ 	}
+
+ 	.photo{
+ 	width: 60vw;
+ 	}
+
+
+}

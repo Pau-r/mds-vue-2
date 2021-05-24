@@ -1,0 +1,160 @@
+*{
+  margin : 0;
+  padding: 0;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@font-face{
+  src:url(typos/Raleway-Bold.ttf);
+  font-family:raleway;
+  font-weight: bold;
+}
+
+@font-face{
+  src: url(typos/PatrickHandSC-Regular.ttf);
+  font-family: patrick;
+}
+
+
+h1 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  color: #11454f;
+}
+
+a{
+  text-decoration: none;
+}
+
+.menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:4%;
+}
+
+.menu a{
+  padding:1%;
+  font-size: 20px;
+  color: #11454f;
+}
+
+.monogramme{
+  width:75px;
+}
+
+.presentation-photo{
+  display: flex;
+  align-items: center;
+}
+
+.presentation-texte{
+  padding: 5%;
+}
+
+.photo{
+  width: 40vw;
+  padding: 5% 2% 5% 5%;
+}
+
+.apropos{
+  padding: 5%;
+  line-height: 1.75;
+}
+
+.couleur{
+  color: #eb8e98;
+}
+
+.f-container{
+  display: flex;
+  justify-content: center;
+}
+
+.f-image{
+  background-image: url(images/nature-morte/bleu.jpg);
+  width: 80vw;
+  height: 70vh;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flip-card {
+  background-color: transparent;
+  perspective: 1000px;
+  width: 30vw;
+  height: 30vw;
+  margin: 5% 1% 1% 2%;
+}
+
+.flip-card.show {
+  display: block;
+}
+
+.flip-card-inner {
+  position: relative;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card-back {
+  font-family: patrick;
+  font-size: 4vw;
+  transform: rotateY(180deg);
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-color: #93d9d8;
+  color: white;
+  text-decoration: none;
+}
+
+.flip-card-front, .flip-card-back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.canard{
+  background-image: url(images/nature-morte/jaune.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.appli{
+  background-image: url(images/webdesign/appli-mobile/mobile.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.ets{
+  background-image: url(images/webdesign/ets-raulet/ets-raulet.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.voirplus{
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  color: #11454f;
+  padding: 2%;
+
+}

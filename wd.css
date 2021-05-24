@@ -1,0 +1,151 @@
+*{
+	margin : 0;
+	padding: 0;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+@font-face{
+  src:url(typos/Raleway-Bold.ttf);
+  font-family:raleway;
+  font-weight: bold;
+}
+main{
+	font-family: raleway;
+}
+
+a{
+  text-decoration: none;
+}
+
+.one{
+  background-image: -webkit-linear-gradient(30deg, #d7e4db 65%, #ffffff 50%);
+}
+
+h1{
+	font-size: 80px;
+	color: #11454f;
+	text-align: center;
+	font-weight: bold;
+}
+
+.menu{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding:4%;
+}
+
+.menu a{
+  padding:1%;
+  font-size: 20px;
+  color: #11454f;
+  font-family: raleway;
+}
+
+.canard{
+	background-image: url("images/nature-morte/jaune.jpg");
+	background-size: cover;
+	height:50vh; 
+	background-position: center;
+}
+
+.appli{
+	background-image: url("images/webdesign/appli-mobile/pelotes.jpg");
+	background-size: cover;
+	width: 80%;
+	height:50vh;
+	background-position: center;
+	margin: auto;
+}
+
+.cantabria{
+	background-image: url("images/webdesign/cantabria/cantabria.jpg");
+	background-size: cover;
+	height:50vh;
+	background-position: center;
+}
+
+.ets{
+	background-image: url("images/webdesign/ets-raulet/bouteilles.jpg");
+	background-size: cover;
+	height:50vh;
+	background-position: center;
+}
+
+.portrait{
+	background-image: url("images/dans-la-famille/Guillaume.jpg");
+	background-size: cover;
+	height:50vh;
+	background-position: center top;
+}
+
+.visuel{
+	background-image: url("images/amiral/Visuels/fetemusique.jpg");
+	background-size: cover;
+	height:50vh;
+	background-position: center;
+}
+
+.mep{
+	color: #11454f;
+}
+
+section{
+	display: flex;
+	flex-direction: column; 
+	align-items: center;
+}
+
+article{
+	margin: 7%;
+    /*text-align: center;*/
+}
+
+.texte{
+	font-size: 18px;
+	font-weight: normal;
+	width: 60vw;
+}
+
+.image{
+	width: 70%;
+	margin-bottom: 5%;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+@media (max-width: 740px){
+
+  section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+.image{
+    width: 100vw;    
+  }
+
+  .monogramme{
+  	display: none;
+  }
+
+  .portrait, .visuel, .ets, .appli, .canard, .cantabria{
+  	height: 30vh;
+  }
+
+  h1{
+  	font-size: 10vw;
+  }
+
+  .texte{
+  	font-size: 3vw;
+  }
+  
+}
+

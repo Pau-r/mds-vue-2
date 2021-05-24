@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@font-face{
+  src: url(typos/montserrat-semibold.ttf);
+  font-family: montserrat;
+  font-weight: bold;
+}
+
+main{
+  font-family: montserrat;
+
+}
+
+h1{
+  text-align: center;
+  font-size: 7vw;
+  color: #11454f;
+  padding-bottom: 5%;
+  font-weight: bold;
+
+}
+
+.monogramme{
+  width: 5%;
+  margin: 1.5%;
+}
+
+/* Formulaire */
+
+form {
+  width: 60%;
+  margin: auto;
+}
+
+label{
+  font-size: 2vw;
+}
+
+input[type=text] {
+  display: flex;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #11454f;
+  outline: none;
+  font-size: 1vw;
+}
+
+input[type=text]:focus {
+  background-color: #fbc9cc;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid #11454f;
+  outline: none;
+  font-size: 1vw;
+}
+
+textarea:focus {
+  background-color: #fbc9cc;
+}
+
+input[type=submit]{
+  background-color: #93d9d8;
+  border: none;
+  font-size: 1.2vw;
+  font-weight: normal;
+  color: white;
+  text-decoration: none;
+  padding: 17px 40px;
+  margin: 5% 0;
+  cursor: pointer;
+}
+
+/* Fin formulaire */
+
+
+@media (max-width: 740px){
+
+  h1{
+    font-size: 9vw;
+    padding-top: 8%;
+  }
+
+  label{
+    font-size: 5vw;
+  }
+
+  input[type=text]{
+    font-size: 3vw;
+  }
+
+  textarea{
+    font-size: 3vw;
+  }
+
+  input[type=submit]{
+    font-size: 3vw;
+  }
+}
+

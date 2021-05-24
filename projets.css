@@ -1,0 +1,196 @@
+@font-face{
+  src:url(typos/Raleway-Bold.ttf);
+  font-family:raleway;
+  font-weight: bold;
+}
+
+@font-face{
+  src: url(typos/badscript-regular.ttf);
+  font-family: badscript;
+}
+
+@font-face{
+  src:url(typos/PatrickHandSC-Regular.ttf);
+  font-family: patrick
+}
+
+
+h1 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 5vw;
+  color: #11454f;
+}
+
+a{
+  text-decoration: none;
+  
+}
+
+.menu{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding:4%;
+}
+
+.menu a{
+  padding:1%;
+  font-size: 20px;
+  color: #11454f;
+}
+
+.monogramme{
+  width:75px;
+}
+
+section .home .home,
+section .projects .projects,
+section .services .services,
+section .contact .contact{
+    
+    background-color:#e35885;
+  }
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu-filtre{
+  display: flex;
+  justify-content: center;
+  padding: 3%;
+}
+
+button{
+  padding: 1%;
+  font-family: raleway;
+  color: #11454f;
+  border: none;
+  background: none;
+  font-size: 18px;
+
+}
+
+button.filtre-projets.active {
+  border: none;
+  color: #11454f;
+  font-weight: bold;
+
+}
+
+.flip-card {
+  display: none;
+  background-color: transparent;
+  perspective: 1000px;
+  width: 30vw;
+  height: 30vw;
+  margin: 5% 1% 1% 2%;
+}
+
+.flip-card.show {
+  display: block;
+}
+
+.flip-card-inner {
+  position: relative;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card-back {
+  font-family: patrick;
+  font-size: 4vw;
+  transform: rotateY(180deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #93d9d8;
+  color: white;
+  text-decoration: none;
+}
+
+.flip-card-front, .flip-card-back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.canard{
+  background-image: url(images/nature-morte/jaune.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.recette{
+  background-image: url(images/mise-en-page/recette/recette2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.ets{
+  background-image: url(images/webdesign/ets-raulet/ets-raulet.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.cantabria{
+  background-image: url(images/webdesign/cantabria/cantabria.jpg);
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.visuel{
+  background-image: url(images/amiral/Visuels/halloween.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+
+.appli{
+  background-image: url(images/webdesign/appli-mobile/mobile.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.depliant{
+  background-image: url(images/mise-en-page/depliant/depliant-1.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #104550;
+}
+
+.portrait{
+  background-image: url(images/dans-la-famille/Guillaume.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+@media (max-width: 740px){
+
+  .flip-card{
+    display: none;
+  }
+
+  .monogramme{
+    display: none;
+  }
+
+  h1{
+    padding-top: 50%;
+    padding-bottom: 15%;
+    font-size: 10vw;
+  }
+   
+}
+
+
