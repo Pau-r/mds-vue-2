@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="apropos.css">
 	<link rel="stylesheet" href="header.css">
 	<link rel="stylesheet" href="footer.css">
+
 </head>
 <body>
 	<main>
@@ -15,29 +16,10 @@
 
 			
 		<nav>
-					<div class="b-nav">
-			  <li><a class="b-link" href="index.html" target="_blank">Accueil</a></li>
-			  <li><a class="b-link" href="webdesign.html" target="_blank">Webdesign</a></li>
-			  <li><a class="b-link" href="photographie.html" target="_blank">Photographie</a></li>
-			  <li><a class="b-link" href="graphisme.html" target="_blank">Graphisme</a></li>
-			  <li><a class="b-link" href="apropos.html" target="_blank">A propos</a></li>
-			  <li><a class="b-link" href="contact.html" target="_blank">Contact</a></li>
+				<?php include ("header.php"); ?>
 
-					</div>
-
-			<!-- Burger-Icon -->
-			<div class="b-container">
-				<!-- Burger-Brand -->
-			  <a href="#" class="b-brand">Menu</a>
-				
-			  <div class="b-menu">
-			    <div class="b-bun b-bun--top"></div>
-			    <div class="b-bun b-bun--mid"></div>
-			    <div class="b-bun b-bun--bottom"></div>
-			  </div>
-
-		 	
-			</div>
+					<?php include ("menu-burger.php"); ?>
+			
 				</nav>
 
 			<h1> A propos </h1>

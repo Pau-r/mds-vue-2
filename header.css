@@ -26,6 +26,7 @@ main{
 }
 
 /* Menu Burger */
+
 @-webkit-keyframes slideInRight {
   0% {
     transform: translate3d(-250px, 0, 0);
@@ -202,6 +203,7 @@ body.open:after {
   right: 30px;
   position: absolute;
   top: 45px;
+  display: none;
 }
 .b-container:hover:not(.open) .bun-top,
 .b-container:hover:not(.open) .bun-mid,

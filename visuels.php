@@ -13,35 +13,9 @@
 	<main>
 		<header>		
 				<nav>
-				<div class="menu"> 
-				<a href="index.html"> Accueil</a>
-				<a href="projets.html">Portfolio</a>
-				<a href="index.html"><img class="monogramme" src="images/logo-pr.png" alt="monogramme PR"></a>
-				<a href="apropos.html">À propos</a>
-				<a href="contact.html">Contact</a>
-				</div>
+				<?php include ("header.php"); ?>
 
-					<div class="b-nav">
-			  <li><a class="b-link" href="index.html" target="_blank">Accueil</a></li>
-			  <li><a class="b-link" href="webdesign.html" target="_blank">Webdesign</a></li>
-			  <li><a class="b-link" href="photographie.html" target="_blank">Photographie</a></li>
-			  <li><a class="b-link" href="graphisme.html" target="_blank">Graphisme</a></li>
-			  <li><a class="b-link" href="apropos.html" target="_blank">A propos</a></li>
-			  <li><a class="b-link" href="contact.html" target="_blank">Contact</a></li>
-
-			<!-- Burger-Icon -->
-			<div class="b-container">
-				<!-- Burger-Brand -->
-			  <a href="#" class="b-brand">Menu</a>
-				
-			  <div class="b-menu">
-			    <div class="b-bun b-bun--top"></div>
-			    <div class="b-bun b-bun--mid"></div>
-			    <div class="b-bun b-bun--bottom"></div>
-			  </div>
-
-		 	
-			</div>
+					<?php include ("menu-burger.php"); ?>
 				</nav>
 		</header>
 
@@ -69,13 +43,10 @@
 		</section>
 
 		<footer>
-			<a href="index.html"><img class="monogramme-footer" src="images/logo-pr.png" alt="monogramme PR"></a>
-			<p>Photographe & Webdesigner</p>
-			<p>Tous droits réservés - <a href="apropos.html">Pauline Raulet©</a> 2020</p>
+			<?php include ("footer.php"); ?>
 		</footer>
 	</div>
 		
-		<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 		<script src="header-projet.js"></script>
 		<script src="index.js"></script>
 	</main>
