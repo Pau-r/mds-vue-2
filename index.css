@@ -26,6 +26,14 @@ h1 {
   color: #11454f;
 }
 
+h2{
+  font-weight: bold;
+  text-align: center;
+  font-size: 40px;
+  color: #11454f;
+}
+
+
 a{
   text-decoration: none;
 }
@@ -72,16 +80,22 @@ a{
 
 .f-container{
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
 }
 
-.f-image{
-  background-image: url(images/nature-morte/bleu.jpg);
-  width: 80vw;
-  height: 70vh;
-  background-position: center;
-  background-size: cover;
+.f-container img{
+  width: 70vw;
+  height: auto;
+}
 
+.f-titre{
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .container{
