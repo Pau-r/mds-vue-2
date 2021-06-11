@@ -73,6 +73,11 @@ button{
 
 }
 
+button:hover{
+  color: #bf7b6b;
+  transform: rotate(5deg);
+}
+
 button.filtre-projets.active {
   border: none;
   color: #11454f;
@@ -177,6 +182,18 @@ button.filtre-projets.active {
 
 @media (max-width: 740px){
 
+  main{
+    padding: 0% 5%;
+    }
+  .one{
+    background-image: none;
+    background-color: #d7e4db;
+  }
+
+  header{
+    display: none;
+    }
+
   .flip-card{
     display: none;
   }
@@ -185,12 +202,12 @@ button.filtre-projets.active {
     display: none;
   }
 
-  h1{
-    padding-top: 50%;
-    padding-bottom: 15%;
-    font-size: 10vw;
+  .container{
+    flex-direction: column;
+    align-items: center;
   }
-   
+
+
 }
 
 

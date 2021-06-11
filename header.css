@@ -27,6 +27,11 @@ header a:hover{
   transform: rotate(5deg);
 }
 
+.monogramme:hover{
+  color: #bf7b6b;
+  transform: rotate(180deg);
+}
+
 .one{
   background-image: -webkit-linear-gradient(30deg, #d7e4db 65%, #ffffff 50%);
 }
@@ -253,18 +258,14 @@ body, html {
     display: none;
   }
 
+  menu-burger{
+    display: block;
+  }
+
   .one{
     background-image: none;
     background-color: #d7e4db;
   }
-
-  .menu-bg {
-      transform: none;
-}
-
-  .menu-burger{
-  padding-top: 1%;
-}
 
   .menu, .menu-bg, .menu-burger {
     right: 6%;

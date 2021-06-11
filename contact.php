@@ -11,8 +11,9 @@
 
 </head>
 <body>
-	<main>
+	
 	<div class="one">
+		<main>
 		<header>
 
 			<?php include ("header.php"); ?>

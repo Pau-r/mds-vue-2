@@ -5,15 +5,14 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 @font-face{
-  src: url(typos/montserrat-semibold.ttf);
-  font-family: montserrat;
-  font-weight: bold;
+  src:url(typos/Raleway-Regular.ttf);
+  font-family:raleway;
 }
 
 main{
-  font-family: montserrat;
-
+  font-family: raleway;
 }
 
 h1{
