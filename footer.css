@@ -8,10 +8,15 @@ a{
 	text-decoration: none;
 }
 
+footer a:hover{
+  color: #bf7b6b;
+  transform: rotate(5deg);
+}
+
 footer{
 	font-family: raleway;
-  	text-align: center;
-  	padding: 2% 0;
+  text-align: center;
+  padding: 2% 0;
 }
 
 .monogramme-footer{

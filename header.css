@@ -14,11 +14,17 @@
 
 main{
 	font-family: raleway;
+  padding: 0 10%;
 }
 
 .lienb{
   text-decoration: none; 
   color: #d7e4db;
+}
+
+header a:hover{
+  color: #bf7b6b;
+  transform: rotate(5deg);
 }
 
 .one{

@@ -48,7 +48,9 @@
 
 			</section>
 			
-			<section class="container">
+		<section class="extrait-portfolio">
+
+			<article class="container">
 
 				<div class="flip-card grid-item">
 					<div class="flip-card-inner">
@@ -70,10 +72,11 @@
 						<a class="flip-card-back" href="ets-raulet.php">Ets Raulet</a>
 					</div>
 				</div>
+			</article>
 
-				<a class="voirplus grid-item" href="projets.php">Voir plus</a>
+				<a class="voirplus" href="projets.php">Voir plus</a>
 
-			</section>
+		</section>
 
 			<?php include ("footer.php"); ?>
 

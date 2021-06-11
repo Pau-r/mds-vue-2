@@ -75,7 +75,7 @@ a{
 }
 
 .couleur{
-  color: #eb8e98;
+  color: #4f745e;
 }
 
 .f-container{
@@ -98,17 +98,23 @@ a{
   transform: translate(-50%, -50%);
 }
 
+.extrait-portfolio{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .container{
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .flip-card {
   background-color: transparent;
   perspective: 1000px;
-  width: 30vw;
-  height: 30vw;
-  margin: 5% 1% 1% 2%;
+  width: 25vw;
+  height: 25vw;
+  margin: 3% 0% 0% 2%;;
 }
 
 .flip-card.show {
@@ -164,11 +170,51 @@ a{
 }
 
 .voirplus{
-  width: 100%;
-  text-align: center;
   font-weight: bold;
   font-size: 25px;
   color: #11454f;
   padding: 2%;
 
+}
+
+.voirplus:hover{
+  color: #bf7b6b;
+  transform: rotate(5deg);
+}
+
+@media (max-width: 740px)
+{
+main{
+  padding: 0% 5%;
+}
+header{
+    display: none;
+  }
+
+h2{
+  font-size: 20px;
+}
+
+h1{
+  font-size: 22px;
+  margin-top: 10%;
+}
+
+.f-container img{
+  display: none;
+}
+
+.f-titre{
+  position: relative;
+}
+
+.photo{
+  padding: 0% 0% 2% 0%;
+  width: 50vw;
+}
+
+.presentation-photo{
+    flex-direction: column;
+    font-size: 12px;
+  }
 }
